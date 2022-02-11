@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T12:43:35 EET" name="Default suite" finished-at="2022-02-11T12:43:48 EET" duration-ms="13489">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T12:43:35 EET" name="Default test" finished-at="2022-02-11T12:43:48 EET" duration-ms="13489">
+      <class name="e2eProject.SelTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:e2eProject.SelTest@2c35e847]" started-at="2022-02-11T12:43:35 EET" name="initialization" finished-at="2022-02-11T12:43:42 EET" duration-ms="7591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="selTest1(java.lang.String,java.lang.String)[pri:0, instance:e2eProject.SelTest@2c35e847]" started-at="2022-02-11T12:43:42 EET" name="selTest1" data-provider="getData" finished-at="2022-02-11T12:43:48 EET" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e2eProject.SelTest@2c35e847]" started-at="2022-02-11T12:43:48 EET" name="teardown" finished-at="2022-02-11T12:43:48 EET" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- e2eProject.SelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
